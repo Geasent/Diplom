@@ -8,7 +8,19 @@ $data = [
 
 if(!empty($_POST)){
     require_once 'db.php';
-
+    $data = load($data);
+    debug($data);
 }
 
-function
+function load($data) {
+    foreach($_POST as $k => $v) {
+        if(array_key_exists($k, $data)) {
+            $data[$k] =$v;
+        }
+    }
+    return $data;
+}
+
+function debug($data) {
+    echo '<pre>' . print_r($data, true) . '</pre>';
+}

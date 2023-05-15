@@ -2,7 +2,7 @@
 require_once 'rb.php';
 
 $db = [
-    'dsn' => 'mysql:host=127.0.0.1:3306;dbname=4pi4;charset=utf8',
+    'dsn' => '127.0.0.1:3306;dbname=4pi4;charset=utf8',
     'user' => 'root',
     'pass' => '2811301102gG',
 ];
