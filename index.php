@@ -9,8 +9,8 @@
     <title>Document</title>
 </head>
 <body>
-  
-<!-- Button trigger modal -->
+
+<!-- Button trigger dal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
 </button>
