@@ -14,4 +14,12 @@
 
 .btn-googleplus {
  background-image: url(assets/ico/Google.png);
-}s
+}
+
+#Reg {
+    width: 10%;
+}
+
+#Login {
+    width: 10%;
+}
