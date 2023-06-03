@@ -1,0 +1,17 @@
+#btn-login {
+    background-color: blueviolet;
+    border-color: blueviolet;
+
+}
+
+#labels1 {
+    position: relative;
+}
+
+#password1 {
+    margin-top: 10px;
+}
+
+.btn-googleplus {
+ background-image: url(assets/ico/Google.png);
+}s
